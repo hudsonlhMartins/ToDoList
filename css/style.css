@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+.tela{
+    margin-top: 3rem;
+}
+.tela h1{
+    margin-bottom: 1rem;
+}
+.form input{
+    height: 34px;
+    padding: 10px;
+    min-width: 250px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    outline: none;
+}
+.form button{
+    padding: 9px 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(23, 85, 253);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.items{
+    position: relative;
+    margin-top: 2rem;
+}
+.items li {
+    display: flex;
+    align-items: center;
+    background: rgb(231, 229, 229);
+    padding: 20px 0;
+    height: 70px;
+    margin-bottom: 0.8rem;
+    color: #333;
+    border-radius: 4px;
+}
+.items li span{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 16px;
+    background: rgb(231, 229, 229);
+    display: inline-block;
+    min-width: 200px;
+    padding: 10px !important;
+    position: relative;
+}
+.items li input{
+    margin-left: 0.8rem;
+}
+.items li button{
+    position: absolute;
+    right: 1rem;
+    padding: 9px 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(23, 85, 253);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+span input{
+    position: absolute;
+    padding: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    min-width: 200px;
+    background: rgb(231, 229, 229);
+}
+
+span input:focus{
+    background: rgba(170, 170, 170);
+    border: 2px solid rgb(23, 85, 253);
+    border-radius: 7px;
+}
+
+.items li span:hover{
+    background: rgba(170, 170, 170, 0.5);
+    border-radius: 7px;
+}
